@@ -603,93 +603,59 @@ img {
     padding-bottom: 223px; */
 }
 
-.div4 {
-    margin-left: 650px;
-    margin-top: 50px;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-
-.div4 h1{
-    margin-left: 600px;
-    display: flex;
-    position: absolute;
-    font-size: 20px;
-    color: #bf6d01;
-}
-.div4 h2{
-    display: flex;
-    position: absolute;
-    font-size: 20px;
-    color: #bf6d01;
-}
-
 .header__title {
+    position: relative;
+    display: inline-block;
     display: flex;
-
-    /* margin-top: 50px;  
-    margin-left: 200px; */
-     /* width: 800px; */
+    position: relative; 
+    margin: auto;
     height: 0px; 
-    /* align-items: center; */
-    /* justify-content: center; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 .head__title {
-    margin-top: 50px;  
-    margin-left: 200px;
-    /* align-items: center; */
-    /* justify-content: center; */
+    margin-top: 0px;  
+    margin-left: 850px;
     text-align: center; 
     /* color: #ba730a;  */
     color: hsl(36, 97%, 50%);
     font-family: 'Lato';
+    font-weight: bold;
     font-style: normal;
-    font-weight: 500;
-    font-size: 80px;
-    /* line-height: 60px; */
+    /* font-weight: 500; */
+    font-size: 60px;
 }
 
 .head {
-    padding-top:  200px;
-    padding-left: 70px;
+    padding-top:  30px;
+    padding-left: 0px;
     /* color: #ba730a; */
     color: hsl(36, 97%, 50%);
     font-family: 'Lato';
-    font-weight: bold;
+    /* font-weight: bold; */
     font-style: normal;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 
 .head__subtitle-div{
     display: flex;
-    margin-top: 420px;
-    width: 700px;
-    height: 130px;
-    /* background: radial-gradient(white,aqua,green); */
-
-    border-radius: 60px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 60px;
     justify-content: center;
     align-items: center;
 }
 .head__subtitle {
-    /* padding-top: 450px; */
     color: hsl(36, 97%, 50%);
-    /* color: #ba730a; */
-    /* color: black; */
-    /* align-items: center;
-    justify-content: center;
-    text-align: center; */
-    /* padding-top: 20px;
-    padding-left: 200px; */
+    padding-left: 100px; 
     font-family: 'Lato';
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
+}
+.head__subtitle span{
+    padding-left: 50px;
 }
 
 
