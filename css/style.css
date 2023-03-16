@@ -422,7 +422,7 @@ img {
     height: auto ;
 }
 
-.wrapper {
+.wrapper  {
     /* max-width: 1060px; */
     background: url(../img/Desktop\ -\ 5.png) no-repeat center;
     min-height: 100vh;
@@ -430,6 +430,21 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+/* .sss {
+margin-top: 1400px ;
+background: url(../img/Desktop\ -\ 5.png) no-repeat center;
+height: 100vh;
+background-size: cover;
+margin: 0 auto;
+padding: 0 15px;
+} */
+
+/* .sss h2 {
+    margin-top: 800px;
+    height: 100vh;
+    width: 100%;
+} */
 
 /* .header {
     position: fixed;
@@ -605,7 +620,7 @@ img {
 
 .header__title {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     display: flex;
     position: relative; 
     margin: auto;
@@ -615,7 +630,7 @@ img {
 
 .head__title {
     margin-top: 0px;  
-    margin-left: 850px;
+    margin-left: 150px;
     text-align: center; 
     /* color: #ba730a;  */
     color: hsl(36, 97%, 50%);
@@ -627,6 +642,7 @@ img {
 }
 
 .head {
+    /* position: absolute; */
     padding-top:  30px;
     padding-left: 0px;
     /* color: #ba730a; */
@@ -640,8 +656,8 @@ img {
 
 .head__subtitle-div{
     display: flex;
-    position: absolute;
-    margin-left: 800px;
+    position: absolute; 
+    margin-left: 100px;
     margin-top: 60px;
     justify-content: center;
     align-items: center;
